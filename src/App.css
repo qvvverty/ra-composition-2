@@ -1,0 +1,77 @@
+.top-container {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.news-menu {
+  display: flex;
+  align-items: center;
+  
+  padding-left: 0;
+  list-style: none;
+}
+
+.news-menu-item {
+  margin: 5px;
+}
+
+.date {
+  font-size: 12px;
+  color: gray;
+}
+
+.hot-news {
+  margin-top: 10px;
+
+  padding-left: 0;
+  list-style: none;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+}
+
+.news-agency-icon {
+  display: block;
+  margin-right: 5px;
+
+  width: 14px;
+  height: 14px;
+  background-image: url(https://avatars.mds.yandex.net/get-ynews-logo/135513/1002-1544074003449-square/logo-square);
+}
+
+.stocks {
+  margin-top: 10px;
+  display: flex;
+
+  padding-left: 0;
+  list-style: none;
+}
+
+.stocks-item {
+  margin-right: 5px;
+}
+
+.stocks-item-currency {
+  font-weight: 700;
+}
+
+.stocks-item-delta {
+  color: darkgray;
+}
+
+.stocks-show-more {
+  cursor: pointer;
+}
+
+.side-banner {
+  margin-left: 50px;
+}
+
+.side-banner-img {
+  width: 150px;
+  height: 150px;
+}
