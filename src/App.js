@@ -72,7 +72,7 @@ function App() {
     <div className="content-wrapper">
       <TopContainer />
       <SearchContainer />
-      <Banner bannerImgUrl="/banner.jpg" bannerLink="https://yandex.ru" />
+      <Banner bannerImgUrl="banner.jpg" bannerLink="https://yandex.ru" />
       <div className="widgets-container">
         <Widget header="Погода" headerLink="https://yandex.ru">
           <WeatherWidget weather="rain" temperature="+17" forecast={['утром +17', 'днём +20']} />

@@ -10,7 +10,7 @@ export default function TopContainer() {
     <div className="top-container">
       <News />
       <SideBanner header="Работа над ошибками" link="https://yandex.ru" slogan="Смотрите на Яндексе и запоминайте">
-        <img className="side-banner-img" src="/logo192.png" alt="..." />
+        <img className="side-banner-img" src="logo192.png" alt="..." />
       </SideBanner>
     </div>
   )
